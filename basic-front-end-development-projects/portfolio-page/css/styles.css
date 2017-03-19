@@ -1,0 +1,7 @@
+.cat-pic {
+  display: block;
+  max-width: 125px;
+  max-height: 125px;
+  width: auto;
+  height: auto;
+}
