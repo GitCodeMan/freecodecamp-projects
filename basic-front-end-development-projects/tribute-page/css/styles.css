@@ -1,0 +1,14 @@
+body {
+  margin-top: 75px;
+  background-color:  #ff5733;
+  font-family: Candara;
+}
+img {
+  border-radius: 10px;
+}
+.thumbnail {
+  background-color: #2da164;
+}
+.mumbotron {
+  background-color: white;
+}
