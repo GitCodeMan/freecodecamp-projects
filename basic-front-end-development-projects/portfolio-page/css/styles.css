@@ -1,3 +1,15 @@
+nav {
+	background-color: #212E3A;
+}
+
+nav a {
+	color: #FFFFFF;
+}
+
+.jumbotron {
+	background-color: #bcccdb;
+}
+
 .cat-pic {
   display: block;
   max-width: 125px;
@@ -6,6 +18,34 @@
   height: auto;
 }
 
-#portfolio {
-	padding: 2.5em;
+div .list-group-item {
+	border: none;
+}
+
+.navigation-adjust {
+	padding-top: 30px;
+}
+
+.contact-text {
+	font-size: 2.0em;
+	font-family: Helvetica Neue;
+}
+
+#find-me {
+	width: 35%;
+	float: left;
+}
+
+#social-icons {
+	width: 65%;
+	float: right;
+}
+
+footer#potfolio-footer {
+	margin-top: 40px;
+	height: 40px;
+	background-color: #212E3A;
+	color: #FFFFFF;
+	font-size: 1.3em;
+	text-align: center;
 }

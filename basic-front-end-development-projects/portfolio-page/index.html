@@ -11,12 +11,15 @@
 
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-		<link rel="stylesheet" href="css/styles.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+		<link rel="stylesheet" href="./css/bootstrap-social.css">
+		<link rel="stylesheet" href="./css/styles.css">
 
 	</head>
 
 	<body>
-		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<nav class="navbar navbar-fixed-top" role="navigation">
 			<div class="container">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -38,12 +41,11 @@
 		</nav>
 		
 		<div id="about" class="jumbotron">
-			<p style="padding: 30px;"></p>
-			<div class="container">
+			<div class="container navigation-adjust">
 				<div class="row">
 					<div class="col-xs-8">
 						<p>
-							A Back-End Java Developer who is learning Front-End Development. Coding is my profession and now it has become my hobby too! Yay, coding is fun!
+							A Back-End Java Developer who is learning Front-End Development. Coding is my profession and now it has become my hobby too! Because coding is fun :)
 						</p>
 						<hr class="star-bright"></hr>
 						<span class="">
@@ -57,61 +59,106 @@
 			</div>
 		</div>
 
-		<div id="portfolio" class="container">
+		<div id="portfolio" class="container navigation-adjust">
 			<h2>Portfolio</h2>
-			<hr class="star-dark"></hr>
+			<hr>
 			<div class="row list-group">
-				<div class="item col-xs-4 col-lg-4">
+				<div class="list-group-item col-xs-12 col-lg-4">
 					<div class="thumbnail">
-						<img class="group list-group-image" src="images/tribute-page.png" alt="Image of freecodecamp's tribute page project">
+						<img class="list-group-image" src="images/tribute-page.png" alt="Image of freecodecamp's tribute page project">
 						<div class="caption">
-							<h4 class="group inner list-group-item-heading">Tribute Page</h4>
-							<p class="group inner list-group-item-text">
+							<h4 class="list-group-item-heading">Tribute Page</h4>
+							<p class="list-group-item-text">
 								A freeCodeCamp project - Tribute Page - done by me!
 							</p>
-							<div class="row">
-								<div class="col-xs-12 col-md-6">
-									<a class="btn btn-default" href="https://codepen.io/GitCodeMan/full/oBwzEG" target="_blank">View</a>
-								</div>
-							</div>
 						</div>
 					</div>
+					<a class="btn btn-default center-block" href="https://codepen.io/GitCodeMan/full/oBwzEG" target="_blank">View</a>
 				</div>
-				<div class="item col-xs-4 col-lg-4">
+
+				<div class="list-group-item col-xs-12 col-lg-4">
 					<div class="thumbnail">
-						<img class="group list-group-image" src="images/tribute-page.png" alt="Image of freecodecamp's tribute page project">
+						<img class="list-group-image" src="images/tribute-page.png" alt="Image of freecodecamp's tribute page project">
 						<div class="caption">
-							<h4 class="group inner list-group-item-heading">Tribute Page</h4>
-							<p class="group inner list-group-item-text">
+							<h4 class="list-group-item-heading">Tribute Page</h4>
+							<p class="list-group-item-text">
 								A freeCodeCamp project - Tribute Page - done by me!
 							</p>
-							<div class="row">
-								<div class="col-xs-12 col-md-6">
-									<a class="btn btn-default" href="https://codepen.io/GitCodeMan/full/oBwzEG" target="_blank">View</a>
-								</div>
-							</div>
 						</div>
 					</div>
+					<a class="btn btn-default center-block" href="https://codepen.io/GitCodeMan/full/oBwzEG" target="_blank">View</a>
 				</div>
-				<div class="item col-xs-4 col-lg-4">
+
+				<div class="list-group-item col-xs-12 col-lg-4">
 					<div class="thumbnail">
-						<img class="group list-group-image" src="images/tribute-page.png" alt="Image of freecodecamp's tribute page project">
+						<img class="list-group-image" src="images/tribute-page.png" alt="Image of freecodecamp's tribute page project">
 						<div class="caption">
-							<h4 class="group inner list-group-item-heading">Tribute Page</h4>
-							<p class="group inner list-group-item-text">
+							<h4 class="list-group-item-heading">Tribute Page</h4>
+							<p class="list-group-item-text">
 								A freeCodeCamp project - Tribute Page - done by me!
 							</p>
-							<div class="row">
-								<div class="col-xs-12 col-md-6">
-									<a class="btn btn-default" href="https://codepen.io/GitCodeMan/full/oBwzEG" target="_blank">View</a>
-								</div>
-							</div>
 						</div>
+					</div>
+					<a class="btn btn-default center-block" href="https://codepen.io/GitCodeMan/full/oBwzEG" target="_blank">View</a>
+				</div>
+			</div>
+		</div>
+
+		<div id="contact" class="container navigation-adjust">
+			<h2>Contact Me</h2>
+			<hr>
+			<div class="row">
+				<div class="col-xs-12 col-md-6">
+					<form>
+						<div class="form-group">
+							<label for="name">Name</label>
+							<input id="name" class="form-control" type="text" placeholder="Name" required>
+						</div>
+						<div class="form-group">
+							<label for="email">Email Address</label>
+							<input id="email" class="form-control" type="text" placeholder="Email Address" required>
+						</div>
+						<div class="form-group">
+							<label for="phone">Phone Number</label>
+							<input id="phone" class="form-control" type="text" placeholder="Phone Number">
+						</div>
+						<div class="form-group">
+							<label for="message">Message</label>
+							<textarea id="message" class="form-control" rows="4" placeholder="Message"></textarea>
+						</div>
+						<button class="btn btn-primary" type="submit">Send</button>
+					</form>
+				</div>
+				<div class="col-xs-12 col-md-6">
+					<p class="contact-text">
+						Let's talk! Be it science, programming, politics or your reflection of life through the philosophical lens, just send me an email, I'm all ears. 
+					</p>
+					<br>
+					<div id="find-me">
+						<h4>You can also find me at</h4>
+					</div>
+					<div id="social-icons">
+						<a class="btn btn-social-icon btn-facebook">
+							<span class="fa fa-facebook"></span>
+						</a>
+						<a class="btn btn-social-icon btn-twitter">
+							<span class="fa fa-twitter"></span>
+						</a>
+						<a class="btn btn-social-icon btn-reddit">
+							<span class="fa fa-reddit"></span>
+						</a>
+						<a class="btn btn-social-icon btn-linkedin">
+							<span class="fa fa-linkedin"></span>
+						</a>
 					</div>
 				</div>
 			</div>
 		</div>
-		<!-- https://codepen.io/GitCodeMan/full/oBwzEG/ -->
+
+		<footer id="potfolio-footer" class="container-fluid">
+			<p>&copy; 2017 CopyRight GitCodeMan</p>
+		</footer>
+
 		<script
 			  src="https://code.jquery.com/jquery-2.2.4.min.js"
 			  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
