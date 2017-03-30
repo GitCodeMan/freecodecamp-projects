@@ -1,3 +1,7 @@
+body {
+	font-family: Candara;
+}
+
 nav {
 	background-color: #212E3A;
 }
@@ -7,7 +11,8 @@ nav a {
 }
 
 .jumbotron {
-	background-color: #bcccdb;
+	background-color: #beccda;
+	border-bottom: 3px solid red;
 }
 
 .cat-pic {
@@ -26,9 +31,25 @@ div .list-group-item {
 	padding-top: 30px;
 }
 
-.contact-text {
+#contact-text {
 	font-size: 2.0em;
-	font-family: Helvetica Neue;
+	padding-top: 60px;
+}
+
+.form-item label{
+	margin:0;
+	vertical-align:middle;
+	opacity:0;
+}
+
+.form-item-filled label{
+	top:0;
+	opacity:1;
+	color:#808080;
+}
+
+.form-item-focused label{
+	color:#000000;
 }
 
 #find-me {
